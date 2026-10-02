@@ -1,0 +1,5 @@
+include LICENSE THIRD_PARTY_NOTICES.md
+recursive-include csrc *.h *.hpp *.cuh *.cu *.cpp CMakeLists.txt
+recursive-include deep_ep/include *.h *.hpp *.cuh
+recursive-include third-party/fmt/include *.h
+include third-party/fmt/LICENSE
